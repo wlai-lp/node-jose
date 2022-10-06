@@ -8,6 +8,9 @@ i created jose-decrypt.js for the sole purpose of decrypting TU jwe and it looks
 i used the site over to generate a jwe, then copy the jwe string here to jwe.txt
 ran `node jose-decrpt.js` and got console output of correct payload
 
+if you use java-nimbus to generate a TU mark JWE, you can use jose-decrypt.js to decrpt
+keep in mind that he sign the jwt and encrypt it as its payload
+so the payload has to be  decoded to see the json string
 
 ```
 npm run devbuild
