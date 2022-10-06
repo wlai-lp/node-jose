@@ -25,6 +25,7 @@ async function joseDecrypt() {
     let result = await decrypter.decrypt(inputJwe.toString());
     console.log("debug 3 " + JSON.stringify(result));
 
+    // this fails for marks payload, because his is url64encoded?
     let td = new TextDecoder("utf-8"),
       stringPayload = td.decode(result.payload),
       parsedPayload = null;
