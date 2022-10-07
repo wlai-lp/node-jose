@@ -85570,7 +85570,7 @@ function parseAndDisplayToken(token) {
 }
 
 jquery__WEBPACK_IMPORTED_MODULE_2___default()(document).ready(function() {
-  jquery__WEBPACK_IMPORTED_MODULE_2___default()( '#version_id').text("1.0.6.83\n");
+  jquery__WEBPACK_IMPORTED_MODULE_2___default()( '#version_id').text("1.0.6.4\n");
   jquery__WEBPACK_IMPORTED_MODULE_2___default()( '.btn-copy' ).on('click', copyToClipboard);
   jquery__WEBPACK_IMPORTED_MODULE_2___default()( '.btn-encode' ).on('click', encodeJwt);
   jquery__WEBPACK_IMPORTED_MODULE_2___default()( '.btn-decode' ).on('click', showDecoded);
